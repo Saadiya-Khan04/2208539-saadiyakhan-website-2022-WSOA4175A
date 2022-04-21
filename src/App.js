@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import {Routes, Route} from 'react-router-dom'; 
+import Home from './pages/Home'; 
+import Blogs from './pages/Blogs';
+import Netart from './pages/NetArt';
+import Footer from './components/Footer';
+import DesignAesth from './pages/DesignAesth';
+import About from './pages/About';
+import DesignJustice from './pages/DesignJustice';
+import Reflection from './pages/Reflection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar/>
+     <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Blogs' element={<Blogs/>}/>
+        <Route path='/Netart' element={<Netart/>}/>
+        <Route path='/DesignAesth' element={<DesignAesth/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/DesignJustice' element={<DesignJustice/>}/>
+        <Route path='/Reflection' element={<Reflection/>}/>
+     </Routes>
+    <Footer/>
     </div>
   );
 }
