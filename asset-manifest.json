@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/css/main.84fc5d85.css",
+    "main.js": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/js/main.eb2e3293.js",
+    "static/js/787.262aa030.chunk.js": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/js/787.262aa030.chunk.js",
+    "static/media/AboutPage.png": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/media/AboutPage.f60deaa976f839696c54.png",
+    "static/media/BlogsPage.png": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/media/BlogsPage.b4bdcdbc642bee66f977.png",
+    "static/media/Homepage.png": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/media/Homepage.e36f9c221c4e0204e1d9.png",
+    "static/media/Individual Blogs.png": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/media/Individual Blogs.1120838fac302559650e.png",
+    "index.html": "/2208539-saadiyakhan-website-2022-WSOA4175A/index.html",
+    "main.84fc5d85.css.map": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/css/main.84fc5d85.css.map",
+    "main.eb2e3293.js.map": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/js/main.eb2e3293.js.map",
+    "787.262aa030.chunk.js.map": "/2208539-saadiyakhan-website-2022-WSOA4175A/static/js/787.262aa030.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84fc5d85.css",
+    "static/js/main.eb2e3293.js"
+  ]
+}
