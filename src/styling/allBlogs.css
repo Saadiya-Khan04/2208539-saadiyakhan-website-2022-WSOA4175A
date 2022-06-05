@@ -1,0 +1,62 @@
+.blogPosts {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #121922; 
+}
+
+.linkLeft a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D5D5D5;
+    float: left;
+    background-color: #360084;
+    border-radius: 10%;
+}
+
+.linkLeft a:hover, .linkRight a:active {
+    background-color: #5512B6;
+}
+
+.linkRight a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D5D5D5;
+    float: right;
+    background-color: #360084;
+    border-radius: 10%;
+}
+
+.linkRight a:hover, .linkRight a:active {
+    background-color: #5512B6;
+}
+
+.linkMid a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #D5D5D5;
+    background-color: #360084;
+    border-radius: 10%;
+}
+
+.linkMid a:hover, .linkRight a:active {
+    background-color: #5512B6;
+}
+
+.headerBlogs {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.bodyBlogs {
+    color: #D5D5D5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+    line-height: 30px;
+}

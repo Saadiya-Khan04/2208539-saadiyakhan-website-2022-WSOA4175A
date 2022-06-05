@@ -2,54 +2,57 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    font-family: "Gill Sans", sans-serif;
-    background-color: #1F2833;
-}
-
-body{ 
-    background-color: #1F2833;
-}
-
-.headerAbout h1{
-    justify-content: center;
-    align-items: center;
-    font-size: 50px;
-    font-weight: 500;
-    color: white;
-}
-
-.headerAbout p{
-    font-size: 25px;
-    color: #C5C6C7;
-}
-
-.bodyAbout{
     background-color: #121922;
 }
 
-.bodyAbout p{
-    color: #C5C6C7;
+.headerAbout{
+    width: 100%;
+    height: auto;
+    padding: 5%;
+    background-image: url("/src/assets/Images/IMG_7333-2edit.jpg");
+}
+
+.headerAbout h1{
+    font-size: 90px;
+    font-weight: 150;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;  
     justify-content: center;
-    align-items: center;
-    font-family:Arial, Helvetica, sans-serif;
+    margin-right: 12%;
+}
+
+.bodyAbout p{
+    color: #D5D5D5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
     line-height: 30px;
 }
 
 .bodyAbout h2{
     color: white;
-    font-size: 25px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.bodyWire img {
-    width: 50%;
-    height: auto;
-    padding: 0%;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .bodyAbout h3{
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.bodyWire p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bodyWire img {
+    width: 80%;
+    padding: 10%;
+}
+
+

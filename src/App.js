@@ -9,6 +9,20 @@ import DesignAesth from './pages/DesignAesth';
 import About from './pages/About';
 import DesignJustice from './pages/DesignJustice';
 import Reflection from './pages/Reflection';
+import SpaceArt from './pages/SpaceArt'; 
+import Sun from './planetInfo/sun'; 
+import Mercury from './planetInfo/mercury'; 
+import Venus from './planetInfo/venus';
+import Earth from './planetInfo/earth';
+import Mars from './planetInfo/mars'; 
+import Jupiter from './planetInfo/jupiter'; 
+import Saturn from './planetInfo/saturn'; 
+import Uranus from './planetInfo/uranus'; 
+import Neptune from './planetInfo/neptune';
+import NetArtPrep from './pages/netArtPrep';
+import NetArtPro from './pages/netArtPro';
+import Reflection2 from './pages/Reflection2';
+
 
 function App() {
   return (
@@ -22,6 +36,19 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/DesignJustice' element={<DesignJustice/>}/>
         <Route path='/Reflection' element={<Reflection/>}/>
+        <Route path= '/SpaceArt' element={<SpaceArt/>}/>
+        <Route path='/Sun' element={<Sun/>}/>
+        <Route path='/Mercury' element={<Mercury/>}/>
+        <Route path='/Venus' element={<Venus/>}/>
+        <Route path='/Earth' element={<Earth/>}/>
+        <Route path='/Mars' element={<Mars/>}/>
+        <Route path='/Jupiter' element={<Jupiter/>}/>
+        <Route path='/Saturn' element={<Saturn/>}/>
+        <Route path='/Uranus' element={<Uranus/>}/>
+        <Route path='/Neptune' element={<Neptune/>}/>
+        <Route path='/NetArtPrep' element={<NetArtPrep/>}/>
+        <Route path='/NetArtPro' element={<NetArtPro/>}/>
+        <Route path='/Reflection2' element={<Reflection2/>}/>
      </Routes>
     <Footer/>
     </div>

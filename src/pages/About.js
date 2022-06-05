@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import '../styling/About.css';
-import AboutWire from '../assets/Wireframes/AboutPage.png';
-import BlogsWire from '../assets/Wireframes/BlogsPage.png';
-import HomeWire from '../assets/Wireframes/Homepage.png';
-import IBlogsWire from '../assets/Wireframes/Individual Blogs.png';
+import BlogsWire from '../assets/Wireframes/Blogs.png';
+import HomeWire from '../assets/Wireframes/Home.png';
+import NetArtWire from '../assets/Wireframes/NetArt.png';
+import IBlogsWire from '../assets/Wireframes/BlogPages.png';
 
 export default class About extends Component {
   render() {
@@ -11,20 +11,61 @@ export default class About extends Component {
       <div className='about'>
 
           <div className='headerAbout'>
-            <h1>About </h1>
-            <p>Wireframes and Style Guide</p>
+            <h1><i>Behind The Space</i></h1>
           </div>
+          
 
           <div className='bodyAbout'>
+
+              <h2><u>Style Guide:</u></h2>
+              <p>
+                  <h3><u>Colour Choice:</u></h3>
+                    Considering that I am going for a space theme, the colours that come to mind are purples, blues, black and white. They work well and can stand 
+                    out when used together. They also remind me of nebulas and gas clouds in space. 
+              </p>
+
+              <p>
+                  <h3><u>Font Used:</u></h3>
+                    If I'm not mistaken, I only used Segoe UI, for headings and paragraphs. I started liking this font quite recently, as it seems more readable than the others when put on a 
+                    darker background. It also looks quite elegant in italics. 
+              </p>
+
+              <p>
+                  <h3><u>Layout:</u></h3>
+                    I have implemented a lot more since the last assignment. I decided to keep the home page minimal, with a larger header image. I have also displayed my blogs in 
+                    floating boxes, with a link to the entire blog. I wanted to implement this in my last assignment. I added it so that I can also include it with my states and props. 
+                    I formatted my paragraphs a bit better, so they don't strain the user's eyes by reading sentences that go all the way across the screen. As well as starting paragraphs from
+                    the left side, rather than the middle. 
+                    
+                    The footer would have contact icons, but I did not want to link my social media to it yet. 
+                    I have added links on each blog page, so it is easier to scroll through the blogs, and go back to the blogs main page. Originally, I did want to make the navbar 
+                    more responsive with a logo, but I quite like the simplicity of it, as it is now. 
+                    <br></br>
+              </p>
+
+              <p>
+                <u><i>References:</i></u> <br></br>
+                <br></br>
+                <u>Images:</u> <br></br>
+                <br></br>
+                <a href="https://www.esa.int/" target="_blank" rel="noopener noreferrer">https://www.esa.int/</a>
+                <br></br>
+                <a href="https://www.pngwing.com/" target="_blank" rel="noopener noreferrer">https://www.pngwing.com/</a>
+                <br></br>
+                <br></br>
+                <u>Info:</u> <br></br>
+                <a href="https://www.nasa.gov/" target="_blank" rel="noopener noreferrer">https://www.nasa.gov/</a>
+              </p>
 
               <div className='bodyWire'>
               <h2><u>Wireframes</u>:</h2>
 
+              <br></br>
                 <p><u>Home Page:</u><br></br>
                 <img src={HomeWire} alt="HomeWire"/></p>
 
-                <p><u>About Page:</u><br></br>
-                <img src={AboutWire} alt="AboutWire"/></p>
+                <p><u>NetArt Page:</u><br></br>
+                <img src={NetArtWire} alt="NetArtWire"/></p>
 
                 <p><u>Blogs Page:</u><br></br>
                 <img src={BlogsWire} alt="BlogsWire"/></p>
@@ -33,38 +74,11 @@ export default class About extends Component {
                 <img src={IBlogsWire} alt="IBlogs"/></p>
               </div>
 
-              <h2><u>Style Guide:</u></h2>
-              <p>
-                  <h3><u>Colour Choice:</u></h3>
-                    The teal seems appealing and eye-catching. It's also something different that I wanted to try, <br></br>because my colour schemes are always black and red. <br></br>
-                    The darker colours with the white text can make it easier on the eyes, because it's like a constant dark mode. <br></br>
-                    The grey for the paragraphs make it easier to read, as well as differentiate between headings and paragraphs. 
-              </p>
-
-              <p>
-                  <h3><u>Fonts Used:</u></h3>
-                    The main headings are Arial, as this is bold and stands out as a main heading. <br></br>
-                    I also used Arial for the main blogs paragraphs, it is easy to read in a long paragraph. <br></br>
-                    The links on the blog page are Trebuchet MS, I did this so that they differ from the other fonts and are bold. 
-              </p>
-
-              <p>
-                  <h3><u>Layout:</u></h3>
-                    I am still currently working on the layout of most things on the site. Firstly, I would like to add images and more text on the home page, <br></br> 
-                    to better explain the site. I don't know what I am doing with my site as yet, like what Net Art I would like to do. So I just started up my site. <br></br>
-                    I would also like to display my blogs in boxes that float, and when clicked on, it takes you to the entire blog.<br></br>
-                    Paragraphy layout will be easier to read. For the next assignment, I would also like to change the layout of the wireframes on the About page. <br></br>
-                    The contact page is blank, I would like to set up different accounts for this specific site. <br></br>
-                    The footer might also have contact icons, I'm not too sure about what I want to add to it yet. <br></br>
-                    I will also be adding next and back buttons to the blogs, so navigation is easier. <br></br>
-                    The Navbar will be more responsive and be more aesthetic for the next assignment.
-                    <br></br>
-              </p>
-
-                
           </div>
 
-      </div>
+          
+              
+          </div>
     )
   }
 }

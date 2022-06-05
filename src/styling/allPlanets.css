@@ -1,0 +1,55 @@
+.planetPages{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #1C1C1C;
+}
+
+.headerContPlanets{
+    width: 100%;
+    height: auto;
+    background-image: url("/src/assets/Images/stars1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+
+.headerContPlanets h1{
+    font-size: 90px;
+    font-weight: 150;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-right: 10%;
+}
+
+.bodyPlanets h2{
+    color: #A6A6A6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.bodyPlanets p{
+    color: #D5D5D5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+    line-height: 30px;
+}
+
+.bodyPlanets a{
+    color: #0077DE;
+    font-size: 20px;
+    text-align: center;
+    text-align: left;
+    line-height: 30px;
+}
+
+
+
+

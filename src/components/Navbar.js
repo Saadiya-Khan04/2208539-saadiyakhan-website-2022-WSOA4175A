@@ -10,10 +10,9 @@ export default class Navbar extends Component {
 
           <div className='rightside'>  
             <Link to='/'> Home </Link>
+            <Link to='/spaceart'> Net Art </Link>
             <Link to='/blogs'> Blogs </Link>
-            <Link to='/about'> About </Link>
-            <Link to='/contact'> Contact </Link>
-            
+            <Link to='/about'> Why/How? </Link>
           </div>
       </div>
     )
