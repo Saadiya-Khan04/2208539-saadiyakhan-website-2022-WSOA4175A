@@ -5,30 +5,23 @@ import '../styling/allBlogs.css';
 export default class DesignAesth extends Component {
   render() {
     return (
-        <div className='blogPosts'>
+        <section className='blogPosts'>
 
-        <div className='linkLeft'>
+        <section className='headerBlogs'>
 
-        <a><Link to='/Netart'>=NetArt</Link></a>
-        </div>
+            <div class="h-feed">
+              <h1 class="p-name"><i>Core Principles of Design and Aesthetics</i></h1>
+              <p><i>General Discussion of Design and Aesthetics</i></p>
+            </div>
+            
+        </section>
 
-        <div className='linkRight'>
-
-        <a><Link to='/DesignJustice'>Design Justice=</Link></a>
-        </div>
-
-        <div className='headerBlogs'>
-
-            <h1><i>Core Principles of Design and Aesthetics</i></h1>
-            <p><i>General Discussion of Design and Aesthetics</i></p>
-        </div>
-
-        <div className='bodyBlogs'>
+        <article className='bodyBlogs'>
             <p>
             <u><i>The Role of Aesthetics in Web Design</i></u> <br></br>
             <u><i>Lisbeth Thorlacius</i></u> <br></br>
             
-            <p>
+            <p class="p-summary">
             Lisbeth Thorlacius describes aesthetics as, “visual, sound and interactive means of effect.” (Thorlacius, 2007:63). 
             Aesthetics can be seen as a form of visual communication, meaning that it is a form of communication as soon as it becomes perceivable to the user. 
             These can be words, colours and text. Therefore, when making use of Visual communication, aesthetics, it should stand out to entertain the audience. 
@@ -67,7 +60,7 @@ export default class DesignAesth extends Component {
             <p>
             What I basically understood from Park was that Net Art should allow user interaction, so that there is a community where everyone can participate in creating Net Art,
             not just content creators. This interaction between users and creators allows effective communication. 
-            To be completely honest, Park’s reading did confuse me a lot :(. 
+            To be completely honest, Park’s reading did confuse me a lot. 
             </p>
             
             <p>
@@ -96,28 +89,42 @@ export default class DesignAesth extends Component {
             <u><i>References</i></u> <br></br>
             <br></br>
             Feelingpeaky - Creative design agency, London. 2022. 9 Principles of Good Web Design - read our guidelines to consider. [online] [Accessed 1 April 2022]. <br></br>
-            <br></br>
+           
             Medium. 2022. Design principle: Aesthetics. [online] [Accessed 2 April 2022]. <br></br>
-            <br></br>
+            
             Park, Ji. (2007). Design principles for interactive user experience through net art. Journal of Digital Design. 7. 10.17280/jdd.2007.7.3.005. <br></br>
-            <br></br>
+            
             Pee-Aye Creative. 2022. Top 5 Aesthetic Principles You Must Take Into Account When Designing a Website. [online] [Accessed 4 April 2022]. <br></br>
-            <br></br>
+            
             Resource Techniques. 2022. 5 Basic Elements of Web Design. [online] [Accessed 2 April 2022].<br></br>
-            <br></br>
+           
             Thorlacius, Lisbeth. (2007). The Role of Aesthetics in Web Design. Nordicom Review. 28. 10.1515/nor-2017-0201.<br></br>
             </p>
             
             </p>
            
-        </div>
+        </article>
+          
+          <div className='Links'>
 
-        <div className='linkMid'>
+          <div className='linkLeft'>
 
-          <a><Link to='/Blogs'>=Blogs=</Link></a>
-        </div>
+            <a><Link to='/Netart'>NetArt</Link></a>
+          </div>
 
-      </div>
+          <div className='linkRight'>
+
+            <a><Link to='/DesignJustice'>Design Justice</Link></a>
+          </div>
+
+          <div className='linkMid'>
+
+              <a><Link to='/Blogs'>Blogs</Link></a>
+          </div>
+         <br></br>
+          </div>
+        
+      </section>
     )
   }
 }

@@ -13,11 +13,11 @@ export default class venus extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Venus} alt="Venus"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/venus/overview/" target="_blank" rel="noopener noreferrer">Explore Venus!</a>
                 </p>
-                <br></br>
+             
               <p>
               Venus is the second planet from the Sun and is Earth’s closest planetary neighbor. It’s one of the four inner, 
               terrestrial (or rocky) planets, and it’s often called Earth’s twin because it’s similar in size and density. 
@@ -39,6 +39,7 @@ export default class venus extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Venus} alt="Venus"/>
         </div>
     </div>
     )

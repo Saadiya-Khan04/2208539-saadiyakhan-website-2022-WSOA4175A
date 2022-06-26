@@ -6,48 +6,65 @@
 }
 
 .linkLeft a{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #D5D5D5;
     float: left;
-    background-color: #360084;
+    background-color: #5C00D8;
     border-radius: 10%;
+    padding-bottom: 2px;
 }
 
 .linkLeft a:hover, .linkRight a:active {
-    background-color: #5512B6;
+    background-color: #3C008E;
 }
 
 .linkRight a{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #D5D5D5;
     float: right;
-    background-color: #360084;
+    background-color: #5C00D8;
     border-radius: 10%;
+    padding-bottom: 2px;
 }
 
 .linkRight a:hover, .linkRight a:active {
-    background-color: #5512B6;
+    background-color: #3C008E;
 }
 
 .linkMid a{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #D5D5D5;
-    background-color: #360084;
+    background-color: #5C00D8;
     border-radius: 10%;
+    padding-bottom: 2px;
 }
 
 .linkMid a:hover, .linkRight a:active {
-    background-color: #5512B6;
+    background-color: #3C008E;
 }
 
 .headerBlogs {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+}
+
+.bodyBlogs h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.bodyBlogs h3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 20px; 
 }
 
 .bodyBlogs {
@@ -60,3 +77,12 @@
     text-align: left;
     line-height: 30px;
 }
+
+.bodyBlogs a{
+    color: #3995E7;
+}
+
+.bodyBlogs a:hover{
+    color:#5C00D8; 
+}
+

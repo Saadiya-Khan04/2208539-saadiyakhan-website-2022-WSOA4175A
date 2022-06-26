@@ -13,11 +13,11 @@ export default class earth extends Component {
 
         <div className='bodyPlanets'>
               
-                <img src={Earth} alt="Earth"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/earth/overview/" target="_blank" rel="noopener noreferrer">Explore Earth!</a>
                 </p>
-                <br></br>
+            
               <p>
                   Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things.
                   While Earth is only the fifth largest planet in the solar system, it is the only world in our solar system with liquid water 
@@ -30,6 +30,7 @@ export default class earth extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Earth} alt="Earth"/>
         </div>
     </div>
     )

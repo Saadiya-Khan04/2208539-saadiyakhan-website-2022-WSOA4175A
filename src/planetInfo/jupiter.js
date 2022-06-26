@@ -13,11 +13,11 @@ export default class jupiter extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Jupiter} alt="Jupiter"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/jupiter/overview/" target="_blank" rel="noopener noreferrer">Explore Jupiter!</a>
                 </p>
-                <br></br>
+          
               <p>
               Jupiter has a long history of surprising scientists – all the way back to 1610 when Galileo Galilei found the first moons 
               beyond Earth. That discovery changed the way we see the universe.
@@ -33,6 +33,7 @@ export default class jupiter extends Component {
               </p>
               
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Jupiter} alt="Jupiter"/>
         </div>
     </div>
     )

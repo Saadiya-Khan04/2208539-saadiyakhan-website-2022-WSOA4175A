@@ -13,11 +13,11 @@ export default class neptune extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Neptune} alt="Neptune"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/neptune/overview/" target="_blank" rel="noopener noreferrer">Explore Neptune!</a>
                 </p>
-                <br></br>
+              
               <p>
               Dark, cold, and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system.
               More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye and 
@@ -29,6 +29,7 @@ export default class neptune extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Neptune} alt="Neptune"/>
         </div>
     </div>
     )

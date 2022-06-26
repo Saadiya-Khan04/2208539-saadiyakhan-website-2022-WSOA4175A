@@ -33,6 +33,14 @@
     line-height: 30px;
 }
 
+.bodyAbout a{
+    color: #3995E7;
+}
+
+.bodyAbout a:hover{
+    color: #5C00D8;
+}
+
 .bodyAbout h2{
     color: white;
     font-size: 40px;

@@ -4,26 +4,19 @@ import {Link} from 'react-router-dom';
 export default class Reflection2 extends Component {
   render() {
     return (
-        <div className='blogPosts'>
+        <section className='blogPosts'>
 
-        <div className='linkLeft'>
+      <section className='headerBlogs'>
 
-        <a><Link to='/NetArtPro'>=NetArt Prototype</Link></a>
+        <div class="h-feed">
+          <h1 class="p-name"><i>Reflection - Assignment 2</i></h1>
+          <p><i>Self-critique on Assignment 2</i></p>
         </div>
+       
+      </section>
 
-        <div className='linkRight'>
-
-        <a><Link to='/NetArt'>NetArt=</Link></a>
-        </div>
-
-
-      <div className='headerBlogs'>
-       <h1><i>Reflection - Assignment 2</i></h1>
-       <p><i>Self-critique on Assignment 2</i></p>
-      </div>
-
-      <div className='bodyBlogs'>
-            <p>
+      <article className='bodyBlogs'>
+            <p class="p-summary">
               <u><i>Practical Progress</i></u> <br></br>
               <br></br>
               There is a lot more that I would have liked to add to this iteration, but I did have a few constraints. 
@@ -44,16 +37,29 @@ export default class Reflection2 extends Component {
               but I will do so for the next Assignment. 
               For now, I have added my internet artwork prep and prototype documents, as well as this reflection. 
               I would like to edit my internet, society and design justice blog by adding more of my own research. 
+              I will also be voicing my own opinions in the previous blogs for the next iteration of my site. 
 
             </p>
-      </div>
+      </article>
 
-      <div className='linkMid'>
+          <div className='Links'>
+              <div className='linkLeft'>
 
-        <a><Link to='/Blogs'>=Blogs=</Link></a>
-      </div>
+                <a><Link to='/NetArtPro'>NetArt Prototype</Link></a>
+                </div>
 
-  </div>
+              <div className='linkRight'>
+
+                <a><Link to='/DesignRef'>Design Reflection</Link></a>
+                </div>
+
+              <div className='linkMid'>
+
+                <a><Link to='/Blogs'>Blogs</Link></a>
+              </div>
+          </div>
+          <br></br>
+  </section>
     )
   }
 }

@@ -13,11 +13,11 @@ export default class mars extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Mars} alt="Mars"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/mars/overview/" target="_blank" rel="noopener noreferrer">Explore Mars!</a>
                 </p>
-                <br></br>
+           
               <p>
               Mars is the fourth planet from the Sun – a dusty, cold, desert world with a very thin atmosphere. Mars is also a dynamic planet with seasons, polar ice caps, canyons, extinct volcanoes, and evidence that it was even more active in the past.
               </p>
@@ -37,6 +37,7 @@ export default class mars extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Mars} alt="Mars"/>
         </div>
     </div>
     )

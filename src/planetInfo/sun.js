@@ -12,12 +12,9 @@ export default class sun extends Component {
           </div>
 
           <div className='bodyPlanets'>
-
-                <img src={Sun} alt="Sun"/>
                 <p>
                 <a href="https://solarsystem.nasa.gov/solar-system/sun/overview/" target="_blank" rel="noopener noreferrer">Explore The Sun!</a>
                 </p>
-                <br></br>
                 <p>
                 Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. 
                 The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, 
@@ -32,6 +29,7 @@ export default class sun extends Component {
                 </p>
 
                 <h2><i>All information from NASA Website.</i></h2>
+                <img src={Sun} alt="Sun"/>
           </div>
       </div>
     )

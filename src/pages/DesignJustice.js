@@ -6,28 +6,20 @@ export default class DesignJustice extends Component {
   render() {
     return (
 
-        <div className='blogPosts'>
+        <section className='blogPosts'>
 
-          <div className='linkLeft'>
+            <section className='headerBlogs'>
 
-          <a><Link to='/DesignAesth'>=Design Aesthetics</Link></a>
-          </div>
-
-          <div className='linkRight'>
-
-          <a><Link to='/Reflection'>Reflection=</Link></a>
-          </div>
-
-            <div className='headerBlogs'>
-
-             <h1><i>Internet, Society and Design Justice</i></h1>
+            <div class="h-feed">
+              <h1 class="p-name"><i>Internet, Society and Design Justice</i></h1>
              <p><i>Discussing Design Justice Issues</i></p>
-
             </div>
+             
+            </section>
 
-            <div className='bodyBlogs'>
+            <article className='bodyBlogs'>
 
-                <p>
+                <p class="p-summary">
                 <u><i>Core issues around Internet, Society and Design Justice for the web</i></u> <br></br>
                 <br></br>
                 There are many different issues around the world that involve the internet, society and design justice. I will be focusing on 2 different issues, 
@@ -68,24 +60,45 @@ export default class DesignJustice extends Component {
                 Therefore it can be seen that there are multiple issues that can arise due to the internet, lack of the internet, society and design injustice. 
                 That’s why the “Design Justice Network” was founded. To make sure that no person or group of people are left out or not liberated. 
                 </p>
+
+                <p>
+                  I believe that there should be more groups like the Design Justice Network. There are way too many countries,
+                  and even groups of people, that are left out when it comes to the internet and design. Considering that we live 
+                  in the Digital Age, there are many solutions to dealing with this "digital divide" so that no one gets
+                  left behind. Every group, whether it is the LGBTQIA+, ethinc, religious etc, should all have freedom to use the internet
+                  and not be discriminated by it, especially due to certain design aspects.
+                </p>
                 
                 <p>
                 <u><i>References:</i></u><br></br>
                 <br></br>
                 Costanza-Chock, S. (2020) Design Justice: Community-Led Practices to Build the Worlds We Need. Cambridge, MA, USA: MIT Press (Information Policy). <br></br>
-                <br></br>
-                https://www.internetjustsociety.org/digitalinclusion<br></br>
-                <br></br>
+               
                 World Economic Forum. 2022. What is digital equality? An interview with Nanjira Sambuli. [online] [Accessed 21 April 2022].  <br></br>
+                <a href="https://www.internetjustsociety.org/digitalinclusion" target="_blank" rel="noopener noreferrer">https://www.internetjustsociety.org/digitalinclusion</a>
+                <br></br>
                 </p>
-            </div>
+            </article>
 
-            <div className='linkMid'>
+              <div className='Links'>
+                <div className='linkLeft'>
 
-          <a><Link to='/Blogs'>=Blogs=</Link></a>
-        </div>
+                    <a><Link to='/DesignAesth'>Design Aesthetics</Link></a>
+                    </div>
 
-        </div>
+                <div className='linkRight'>
+
+                    <a><Link to='/Reflection'>Reflection</Link></a>
+                    </div>
+
+                <div className='linkMid'>
+
+                    <a><Link to='/Blogs'>Blogs</Link></a>
+                    </div>
+              </div>
+              <br></br>
+
+        </section>
       
 
       

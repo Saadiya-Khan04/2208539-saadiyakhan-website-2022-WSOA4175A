@@ -11,7 +11,7 @@ export default class SpaceArt extends Component {
 
             <div className='headerContainerArt'>
 
-                <h1><i>The Space Art</i></h1> 
+                <h1 class="p-name"><i>The Space Art</i></h1> 
             </div>
 
         <div className='bodyArt'>

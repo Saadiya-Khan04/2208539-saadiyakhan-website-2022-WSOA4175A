@@ -60,6 +60,13 @@
 
 }
 
+.blogItem a {
+    color: #3995E7;
+}
+
+.blogItem a:hover {
+    color: #5C00D8;
+}
 .blogItem h1,
 .blogItem p {
     margin-left: 10px;

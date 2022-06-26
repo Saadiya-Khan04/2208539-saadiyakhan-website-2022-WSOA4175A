@@ -13,11 +13,11 @@ export default class uranus extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Uranus} alt="Uranus"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/uranus/overview/" target="_blank" rel="noopener noreferrer">Explore Uranus!</a>
                 </p>
-                <br></br>
+              
               <p>
               Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. 
               It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, 
@@ -30,6 +30,7 @@ export default class uranus extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Uranus} alt="Uranus"/>
         </div>
     </div>
     )

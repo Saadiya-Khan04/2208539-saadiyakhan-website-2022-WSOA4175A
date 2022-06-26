@@ -2,31 +2,28 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styling/allBlogs.css';
 
+
 export default class Reflection extends Component {
   render() {
     return (
-        <div className='blogPosts'>
+        <section className='blogPosts'>
 
-          <div className='linkLeft'>
+        <section className='headerBlogs'>
 
-          <a><Link to='/DesignJustice'>=Design Justice</Link></a>
+          <div class="h-feed">
+          
+            <h1 class="p-name"><i>Reflection</i></h1>
+            <p><i>Self-critique of practical progress and theoretical engagement</i></p>
           </div>
+         
+        </section>
 
-          <div className='linkRight'>
+        <article className='bodyBlogs'>
+              <p class="p-summary">
 
-          <a><Link to='/NetArtPrep'>NetArt Prep=</Link></a>
-          </div>
-
-
-        <div className='headerBlogs'>
-         <h1><i>Reflection</i></h1>
-         <p><i>Self-critique of practical progress and theoretical engagement</i></p>
-        </div>
-
-        <div className='bodyBlogs'>
-              <p>
+                
               <u><i>Practical Progress</i></u> <br></br>
-              <br></br>
+             
               I did not have a lot of problems, in terms of coding. Although, there are many things that I would have liked to add to my site. 
               I am having a bit of a hard time trying to grasp the concept of using props and state. I didn’t need to use it in my site for this assignment,
               as my navbar is very simple, and my site is very basic. Andre’s lectures really do help a lot, although I am a bit slow. 
@@ -60,14 +57,27 @@ export default class Reflection extends Component {
               critically analyse and discuss it, looking through multiple different artworks and 
               trying to deduce if they had been referenced before or have made reference to existing artworks. 
               </p>
-        </div>
+        </article>
 
-        <div className='linkMid'>
+          <div className='Links'>
+              <div className='linkLeft'>
 
-          <a><Link to='/Blogs'>=Blogs=</Link></a>
-        </div>
+                <a><Link to='/DesignJustice'>Design Justice</Link></a>
+                </div>
 
-    </div>
+              <div className='linkRight'>
+
+                <a><Link to='/NetArtPrep'>NetArt Prep</Link></a>
+                </div>
+
+              <div className='linkMid'>
+
+                <a><Link to='/Blogs'>Blogs</Link></a>
+                </div>
+          </div>
+            <br></br>
+    </section>
     )
   }
 }
+

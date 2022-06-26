@@ -13,11 +13,10 @@ export default class mercury extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Mercury} alt="Mercury"/>
+                  
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/mercury/overview/" target="_blank" rel="noopener noreferrer">Explore Mercury!</a>
                 </p>
-                <br></br>
                 <p>
                 The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earth's Moon.
                 <br></br>
@@ -30,6 +29,8 @@ export default class mercury extends Component {
                 </p>
 
                 <h2><i>All information from NASA Website.</i></h2>
+                <img src={Mercury} alt="Mercury"/>
+
         </div>
     </div>
     )

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styling/allPlanets.css';
-import Saturn from '../assets/Images/Saturn.png'; 
+import Saturn from '../assets/Images/Saturn1.png'; 
 
 export default class saturn extends Component {
   render() {
@@ -13,11 +13,11 @@ export default class saturn extends Component {
 
         <div className='bodyPlanets'>
 
-                <img src={Saturn} alt="Saturn"/>
+                
                 <p>
                 <a href="https://solarsystem.nasa.gov/planets/saturn/overview/" target="_blank" rel="noopener noreferrer">Explore Saturn!</a>
                 </p>
-                <br></br>
+               
               <p>
               Saturn is the sixth planet from the Sun and the second-largest planet in our solar system.
               Adorned with thousands of beautiful ringlets, Saturn is unique among the planets. It is not the only planet to have rings – made 
@@ -28,6 +28,7 @@ export default class saturn extends Component {
               </p>
 
               <h2><i>All information from NASA Website.</i></h2>
+              <img src={Saturn} alt="Saturn"/>
         </div>
     </div>
     )

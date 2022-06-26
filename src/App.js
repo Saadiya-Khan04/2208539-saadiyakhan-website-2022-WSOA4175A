@@ -22,6 +22,9 @@ import Neptune from './planetInfo/neptune';
 import NetArtPrep from './pages/netArtPrep';
 import NetArtPro from './pages/netArtPro';
 import Reflection2 from './pages/Reflection2';
+import DesRef from './pages/DesRef';
+import TechRef from './pages/TechRef';
+import FinalRef from './pages/FinalRef';
 
 
 function App() {
@@ -49,6 +52,9 @@ function App() {
         <Route path='/NetArtPrep' element={<NetArtPrep/>}/>
         <Route path='/NetArtPro' element={<NetArtPro/>}/>
         <Route path='/Reflection2' element={<Reflection2/>}/>
+        <Route path='/DesignRef' element={<DesRef/>}/>
+        <Route path='/TechRef' element={<TechRef/>}/>
+        <Route path='/FRef' element={<FinalRef/>}/>
      </Routes>
     <Footer/>
     </div>

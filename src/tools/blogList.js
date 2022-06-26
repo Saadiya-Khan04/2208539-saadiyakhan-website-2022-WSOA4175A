@@ -5,6 +5,9 @@ import BlogFour from "../assets/Images/nebula.jpg";
 import BlogFive from "../assets/Images/nebula2.jpg";
 import BlogSix from '../assets/Images/nebula3.jpg';
 import BlogSeven from '../assets/Images/nebula4.jpg';
+import BlogEight from '../assets/Images/bnebula.jpg';
+import BlogNine from '../assets/Images/nebula5.jpg';
+import BlogTen from '../assets/Images/cloud.jpg';
 import {Link} from 'react-router-dom';
 
 export const blogList = [
@@ -48,5 +51,23 @@ export const blogList = [
         name: "Blog 7: Reflection 2",
         image: BlogSeven, 
         link: <Link to='/Reflection2'> Reflection 2 ^ </Link>
+    },
+    
+    {
+        name: "Blog 8: Design Reflection - Exam",
+        image: BlogEight, 
+        link: <Link to='/DesignRef'> Design Reflection ^ </Link>
+    },
+
+    {
+        name: "Blog 9: Technical Reflection - Exam",
+        image: BlogNine, 
+        link: <Link to='/TechRef'> Technical Reflection ^ </Link>
+    },
+
+    {
+        name: "Blog 10: Final NetArt Rationale - Exam",
+        image: BlogTen, 
+        link: <Link to='/FRef'> Final Reflection ^ </Link>
     }
 ]

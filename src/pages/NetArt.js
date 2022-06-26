@@ -2,29 +2,22 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import '../styling/allBlogs.css';
 
+
 export default class NetArt extends Component {
   render() {
     return (
-        <div className='blogPosts'>
-
-          <div className='linkLeft'>
-
-          <a><Link to='/Reflection'>=Reflection</Link></a>
-          </div>
-
-          <div className='linkRight'>
-
-          <a><Link to='/DesignAesth'>Design Aesthetics=</Link></a>
-          </div>
+        <section className='blogPosts'>
           
-        <div className='headerBlogs'>
+        <section className='headerBlogs'>
 
-            <h1><i>Rhizome Artbase</i></h1>
-            <p><i>Critical Analysis of Net/Web Art</i></p>
-        </div>
+             <div class="h-feed">
+              <h1 class="p-name"><i>Rhizome Artbase</i></h1>
+              <p><i>Critical Analysis of Net/Web Art</i></p>
+             </div>
+        </section>
 
-        <div className='bodyBlogs'>
-            <p> 
+        <article class="h-entry" className='bodyBlogs'>
+            <p class="p-summary"> 
             Danae discusses the different types of web art and in a sense, how they have evolved in, 
             <u>“Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet.”</u> 
             Net art is network art, rather than internet art, which Danae describes as art that had been produced during the “Web 1.0” era. (Danae, 2019:1) 
@@ -49,6 +42,7 @@ export default class NetArt extends Component {
             Each of these artworks are made during certain eras of Net Art, therefore they portray the evolution of Net Art. 
             Danae’s discussion can aid in analysing the different artworks through the ages.
             </p>
+            
             
             <p>
             In 1995, Heath Bunting created <u>“Untitled (Splash Page)”</u>, which is a basic, low resolution illustration that is in black and white. 
@@ -75,19 +69,45 @@ export default class NetArt extends Component {
             but rather inspiring people to create more net artworks. 
             These artists are creating art with their own personalised aura, while taking references and ideas from previous net artists. 
             </p>
+
+            <p>
+              Personally, I believe that art is created through inspiration that is gathered from existing artworks. Many artworks
+              are used to create new artworks, these can be whole new artworks or even just an artwork with the representation of
+              an exsiting one. This can create a community of artists who share similar likes, therefore expanding and bringing 
+              attention to Net Art, as a whole. Net Art has evolved through practice, experimentation and the advancement of 
+              technology from something as basic as a video chatroom to games made with text. 
+            </p>
             
             <p>
             <u><i>References</i></u> <br></br>
             Carrier, D. (2020, May 16). The Work of Art in the Age of the Internet. Art, 1-13.<br></br>
             Danae. (2019, January 31). Net Art, Post-internet Art, New Aesthetics: The Fundamentals of Art on the Internet. Digital Art Weekly, 1-11.
             </p>
-        </div>    
+          
+           
+        </article> 
 
-        <div className='linkMid'>
 
-          <a><Link to='/Blogs'>=Blogs=</Link></a>
+        <div className='Links'>
+        <br></br>
+           <div className='linkLeft'>
+
+              <a><Link to='/Reflection'></Link></a>
+              </div>
+
+            <div className='linkRight'>
+
+                <a><Link to='/DesignAesth'>Design Aesthetics</Link></a>
+                </div>
+
+            <div className='linkMid'>
+
+                <a><Link to='/Blogs'>Blogs</Link></a>
+                </div>
         </div>
-      </div>
+       <br></br>
+
+      </section>
     )
   }
 }
